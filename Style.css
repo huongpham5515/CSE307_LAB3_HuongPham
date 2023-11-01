@@ -5,6 +5,9 @@
 div.icon{
     float: right;
 }
+div.icon a:hover{
+    color: #900;
+}
 nav.id ul li a:hover{
     color: #900;
     text-decoration: underline;
