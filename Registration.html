@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style type="text/css">
+        label{
+            width: 100px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <form name = "dangky" action="#" method="post">
+       <div style="text-align: center;">
+        <p><b>MEMBER REGISTRATION</b></p>
+        </div>
+        <fieldset>
+            <legend><b>Personal information</b></legend>
+            <label for="fullname">Full name:</label>
+            <input type="text" maxlength="100" required>
+           <p> <label for="birthday">Birthday:</label>
+            <select name="dob">
+                <option value="value 1" selected = "selected">1</option>
+                <option value="value 2">2</option>
+                <option value="value 3">3</option>
+                <option value="value 4">4</option>
+                <option value="value 5">5</option>
+                <option value="value 6">6</option>
+                <option value="value 7">7</option>
+                <option value="value 8">8</option>
+                <option value="value 9">9</option>
+                <option value="value 10">10</option>
+                <option value="value 11">11</option>
+                <option value="value 12">12</option>
+        </select>
+            <label for="month">Month</label>
+            <select name="months">
+                <option value="value 1" selected = "selected">1</option>
+                <option value="value 2">2</option>
+                <option value="value 3">3</option>
+                <option value="value 4">4</option>
+                <option value="value 5">5</option>
+                <option value="value 6">6</option>
+                <option value="value 7">7</option>
+                <option value="value 8">8</option>
+                <option value="value 9">9</option>
+                <option value="value 10">10</option>
+                <option value="value 11">11</option>
+                <option value="value 12">12</option>
+        </select>
+        <label for="nam">Year</label>
+        <input type="text" name="year" maxlength="100" size="8px">
+        </p>
+        <p>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="Male" value="male">Nam
+        <input type="radio" name="Female" value="female">Nữ
+         </p>
+         <p>
+            <label for="address">Address:</label>
+            <textarea name="address" maxlength="1000" cols="30" rows="5"></textarea>
+        </p>
+        <p>
+            <label for="phonenum">Telephone:</label>
+            <input type="text" maxlength="100" size="35px" height="15px">
+        </p>
+        <p>
+            <label for="email">Email: </label>
+           <input type="email" name="email" maxlength="100" size="35px" required>
+        </p>
+        </fieldset>
+        <fieldset>
+            <legend><b>Credentials</b></legend>
+            <label for="Username">Username:</label>
+            <input type="text" maxlength="100" required>
+            <p>
+                <label for="password">Password: </label>
+                <input type="password" name="password" required>
+            </p>
+            <p>
+                <label for="ConfirmPassword">Confirm Password: </label>
+                <input type="password" name="passwordconfirm" required>
+            </p>
+        </fieldset>
+        <center><button type="submit">Đăng kí</button>
+        <button type="reset">Hủy</button></center>
+    </form>
+</body>
+</html>

@@ -1,0 +1,35 @@
+*{
+    margin:0;
+}
+
+div.icon{
+    float: right;
+}
+nav.id ul li a:hover{
+    color: #900;
+    text-decoration: underline;
+}
+nav.id ul li a{
+    text-decoration: none;
+}
+nav.id{
+    clear: both;
+    background-color: aquamarine;
+    height: 31px;
+}
+nav.id ul li{
+    border-right: solid 2px #333;
+    display: inline;
+    padding: 0 10px;
+
+}
+nav.id ul{
+    border: 2px solid #000;
+    height: 20px;
+    padding: 5px;
+}
+nav.id ul li.me{
+    border-right: none;
+    padding-right: 0;
+    float: right;
+}
